@@ -1,0 +1,280 @@
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	/* Header */
+    .logo {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .menu {
+        width: 90%;
+        float: left;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .menu ul {
+        float: none;
+    }
+    .menu ul li {
+        float: left;
+        padding-right: 10px;
+    }
+    .menu ul li a {
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+
+    /* banner */
+
+    .banner {
+        padding: 15px 0;
+    }
+    .b_h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .b_text {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .b_img {
+        width: 100%;
+    }
+
+    /* success */
+    .wrapper2 {
+        width: 70%;
+    }
+
+    .s_left {
+        width: 100%;
+        float: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .s_right {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+
+    .single {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .single:last-child {
+        margin-bottom: 0;
+    }
+
+    footer {
+        padding: 2px 0;
+    }
+    .f_text p {
+        margin-top: 20px;
+    }
+
+
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	
+
+    /* header */
+    .logo {
+        width: 15%;
+        margin-top: 20px;
+    }
+    .menu {
+        width: 85%;
+    }
+    .menu ul li a {
+        padding: 10px 15px;
+    }
+
+
+    /* banner */
+    .b_h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .b_text {
+        margin: 15px 0;
+        font-size: 20px;
+    }
+
+
+    /* success */
+
+    .wrapper2 {
+        width: 80%;
+    }
+    .s_left {
+        width: 45%;
+        padding: 0 7px 0 0px;
+    }
+    .s_h2 h2 {
+        font-size: 35px;
+    }
+    .s_h1 h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .s_right {
+        width: 40%;
+        padding: 0px 50px 0px 0px;
+    }
+
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	
+/* headder */
+.logo {
+	width: 16%;
+	margin-top: 10px;
+} 
+
+.menu {
+	width: 80%;
+}
+.menu ul li a {
+	padding: 10px 15px;
+}
+
+/* banner */
+.b_h1 {
+	font-size: 48px;
+	line-height: 60px;
+}
+
+.b_text {
+	margin: 15px 5%;
+}
+
+/* success */
+.s_h2 h2 {
+	font-size: 48px;
+}
+
+.s_h1 h1 {
+	font-size: 40px;
+	line-height: 45px;
+}
+
+.s_right {
+	width: 50%;
+	float: right;
+	text-align: left;
+	padding: 0;
+	margin-top: 8px;
+}
+
+.s_h2 h2 {
+	font-size: 50px;
+}
+
+.s_left {
+	padding: 0;
+}
+
+
+
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+    .logo {
+        width: 15%;
+        margin-top: 10px;
+    }
+
+    .menu {
+        width: 65%;
+    }
+
+    /* banner */
+    .b_h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    .b_text {
+        margin: 20px 5%;
+    }
+
+    /* success */
+    .s_h1 h1 {
+        color: #0F2656;
+        font-size: 45px;
+        line-height: 55px;
+        margin: 0;
+    }
+
+    .s_left {
+        width: 42%;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .s_right {
+        padding: 0px 61px 0px 0px;
+    }
+
+    .s_h2 h2 {
+        font-size: 50px;
+    }
+
+    
+ }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+    /* headder */
+    .logo {
+        width: 15%;
+        margin-top: 10px;
+    }
+
+    /* banner */
+    .b_h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .b_text {
+        margin: 20px 0;
+    }
+
+
+    /* success */
+    .s_h1 h1 {
+        color: #0F2656;
+        font-size: 45px;
+        line-height: 55px;
+        margin: 0;
+    }
+
+    .s_left {
+        width: 42%;
+        padding: 0 20px 0 0;
+        margin-top: 0;
+    }
+
+    
+
+ }
+
+ /*Extra Extra large devices (extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    
+	
+ }
